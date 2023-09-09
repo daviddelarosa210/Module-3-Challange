@@ -11,29 +11,26 @@ var numbers = ['1','2','3','4','5','6','7','8','9','0'];
 
 
 function generatePassword() {
- 
- //need prompt the user for the password criteria
- //1.Password length 8-128
- //2. lowercase, uppercase, numbers, special characters
+ var password = "";
+ for(var i = 0;i < passwordLength; i++){
+var randomLetter = Math.floor(Math.random()*passwordChar.length);
+password = password + passwordChar[randomLetter];
 
+ }
 
-
-
-
- //generate password based on criteria
- //validate the input
- //display generated password
-  
-  
-  
-  return "Generated password";
+  return password;
 }
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
+  var correctPrompts= prompts();
+  if(correctPrompts){
+    var passwordNew = generatePassword();
+    var passwordText = document.querySelector("#password");
+  
+    passwordText.value = passwordNew;
+  } else{
+    passwordText.value="";
+  }
 
 }
 
