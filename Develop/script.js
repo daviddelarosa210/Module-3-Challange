@@ -56,5 +56,6 @@ if (confirm("Do you want special characters in your password?")){
 if (confirm("Do you want numbers in your password?")){
   passwordChar = passwordChar.concat(numbers);
 }
+
 return true;
 }
