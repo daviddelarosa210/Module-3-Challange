@@ -1,6 +1,6 @@
 # Module-3-Challange
 Project Status:
-This project is a complete assignment and shouldnt be updated on the regular.
+This project is complete and shouldnt be updated on the regular.
 
 Description:
 This project was to creating a password generator to give us a better understanding of JS as a whole.
@@ -25,4 +25,4 @@ Usage:
 This project can be refrenced for when we come accross any questions about JS.
 
 Authors and acknowledgment:
-This useful project was created by David De La Rosa and the UTSA Bootcamp.
+This useful project was created by David De La Rosa.
