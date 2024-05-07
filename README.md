@@ -1,4 +1,4 @@
-# Module-3-Challange
+# Password Generator
 Project Status:
 This project is complete and shouldnt be updated on the regular.
 
